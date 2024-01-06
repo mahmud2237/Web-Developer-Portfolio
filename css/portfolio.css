@@ -17,10 +17,51 @@ h3 {
     border: 0;
     color: white;
     font-size: 20px;
-    font-style: normal;
     font-weight: 700;
-    padding: 15px 35px ;
+    padding: 15px 35px;
 }
+
+/* header related styles */
+.header {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .profile-pic {
+    width: 500px;
+}
+
+.banner-content {
+    font-family: Open sans;
+    max-width: 500px;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-discription {
+    color: aliceblue;
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -48,27 +89,28 @@ nav li {
 nav a {
     text-decoration: none;
 }
-.header{
+
+/* about section styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
     background: #FFF8F3;
-}
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
-}
-.banner .profile-pic{
-    width: 500px;
+    margin-bottom: 130px 0;
 }
 
+/* main section styles */
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
