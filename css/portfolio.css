@@ -26,7 +26,7 @@ h3 {
     background: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top 10px left;
 }
 
 .banner {
