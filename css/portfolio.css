@@ -24,7 +24,7 @@ h3 {
 /* header related styles */
 .header {
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -196,7 +196,7 @@ main section {
     padding: 130px 200px;
 }
 .footer-column{
-    width: 45%;
+    width: 50%;
 }
 .social-links a{
     margin-right: 25px;
