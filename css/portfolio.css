@@ -1,6 +1,12 @@
 /* common shared styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
 h3 {
@@ -108,12 +114,13 @@ main section {
 }
 
 /* About section styles */
-.about {
+.about-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 130px;
+    gap: 60px;
+    padding: 120px;
     border-radius: 10px;
     background: #FFF8F3;
     margin-bottom: 130px 0;
@@ -260,23 +267,35 @@ textarea {
 }
 
 @media screen and (max-width: 576px) {
-    .header-nav{
+    .header{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-position: bottom top left;
+        
+    }
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         gap: 10px;
     }
     .header-nav-div2 > ul{
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
-        gap: 30px;
+        align-items: center;
+        gap: 10px;
     }
     .header-banner{
         display: flex;
         flex-direction: column;
     }
     .header-banner img{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -289,8 +308,13 @@ textarea {
         align-items: center;
         gap: 20px;
     }
-    
-    .about {
+    /* main {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    } */
+    .about-container {
+        gap: 10px;
         padding: 30px;
         border-radius: 10px;
         /* background: #FFF8F3; */
@@ -330,10 +354,13 @@ textarea {
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .header{
         width: 100%;
+        background-position: bottom, top left;
     }
     .header-nav{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         gap: 10px;
     }
     .header-nav-div2 > ul{
@@ -348,6 +375,7 @@ textarea {
         flex-direction: column;
     }
     .header-banner img{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -367,7 +395,13 @@ textarea {
         width: 100%;
         /* border: 2px solid saddlebrown; */
     }
-    .about {
+    /* main {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    } */
+    .about-container {
+        gap: 40px;
         padding: 30px;
         border-radius: 10px;
         /* background: #FFF8F3; */
