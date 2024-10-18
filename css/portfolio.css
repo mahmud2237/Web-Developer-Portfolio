@@ -260,11 +260,9 @@ textarea {
 
 }
 
+
 /* Responsive Media Query */
 /* For small devices */
-.hide {
-    display: none;
-}
 
 @media screen and (max-width: 576px) {
     .header{
@@ -351,6 +349,7 @@ textarea {
     }
 }
 
+/* For tablet or Medium device */
 @media screen and (min-width: 577px) and (max-width: 992px) {
     .header{
         width: 100%;
